@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="My personal developer portfolio and projects." />
+  <title>My Portfolio | Aspiring Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#home">MyPortfolio<span>.</span></a>
+    <button class="menu-toggle" id="menu-toggle"
+      aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <p class="eyebrow">HELLO, WORLD! 👋</p>
+      <h1>Hi, I'm <span class="accent">Your Name</span></h1>
+      <h2>Aspiring Web Developer</h2>
+      <p class="intro">
+        I'm learning to build beautiful, responsive websites
+        with HTML, CSS, and JavaScript.
+      </p>
+      <div class="actions">
+        <a class="btn" href="#projects">Explore My Work</a>
+        <a class="btn btn-outline" href="#contact">Contact Me</a>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <p class="eyebrow">GET TO KNOW ME</p>
+      <h2>About Me</h2>
+      <p class="section-text">
+        I'm an aspiring developer who enjoys solving problems
+        and turning ideas into websites. I'm currently building
+        my skills through hands-on projects and continuous learning.
+      </p>
+    </section>
+
+    <section class="section" id="skills">
+      <p class="eyebrow">WHAT I USE</p>
+      <h2>My Skills</h2>
+      <div class="skills">
+        <div class="skill"><strong>HTML5</strong><p>Page structure</p></div>
+        <div class="skill"><strong>CSS3</strong><p>Styling and layouts</p></div>
+        <div class="skill"><strong>JavaScript</strong><p>Web interactions</p></div>
+        <div class="skill"><strong>Git & GitHub</strong><p>Version control</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <p class="eyebrow">WHAT I'VE BUILT</p>
+      <h2>My Projects</h2>
+      <div class="projects">
+        <article class="project-card">
+          <div class="project-icon">🌐</div>
+          <h3>Personal Portfolio</h3>
+          <p>A responsive website to introduce myself and showcase my work.</p>
+          <p class="tags">HTML · CSS · JavaScript</p>
+          <a href="https://github.com/" target="_blank"
+             rel="noopener noreferrer">View on GitHub ↗</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">✓</div>
+          <h3>To-Do List</h3>
+          <p>A simple task manager to practice JavaScript and user interaction.</p>
+          <p class="tags">HTML · CSS · JavaScript</p>
+          <a href="https://github.com/" target="_blank"
+             rel="noopener noreferrer">View on GitHub ↗</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">☀️</div>
+          <h3>Weather App</h3>
+          <p>A weather dashboard project to practice working with APIs.</p>
+          <p class="tags">HTML · CSS · JavaScript</p>
+          <a href="https://github.com/" target="_blank"
+             rel="noopener noreferrer">View on GitHub ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2>Contact Me</h2>
+      <p class="section-text">
+        Have an opportunity or a project idea? I'd love to hear from you.
+      </p>
+      <div class="actions">
+        <a class="btn" href="mailto:your.email@example.com">Email Me</a>
+        <a class="btn btn-outline"
+           href="https://github.com/your-username"
+           target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Your Name. Built with HTML, CSS & JS.</p>
+  </footer>
+</body>
+</html>
